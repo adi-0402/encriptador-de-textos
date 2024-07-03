@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es-pe">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h1>Bienvenido al Encriptador de Textos</h1>
+        </nav>
+    </header>
+    <main class="ingreso">
+        <section class="principal">
+            <div class="seccion__izquierda">
+                <textarea class="texto__entrada" placeholder="Ingrese el texto aquí..." id="textInput"></textarea>
+                <div class="icono">
+                    <img src="assets/signo.png" alt="Icono">
+                    <p class="texto__subsimple">Solo letras minúsculas y sin acentos</p>
+                </div>
+                
+                <div class="botones">
+                    <button class="boton encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="boton desencriptar" onclick="desencriptar()" id="desencriptarBoton" disabled>Desencriptar</button>
+                </div>
+            </div>
+
+            <div class="seccion__derecha">
+                <p id="resultado" class="texto__salida"></p>
+                <img src="assets/image.png" alt="Resultado" class="imagen" id="img">
+                <p class="texto__simple" id="message1">Ningún mensaje fue encontrado</p>
+                <p class="texto__subsimple" id="message2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="boton copiar" id="botonCopiar" onclick="copy()" disabled>Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Creado por Adriana Delgado</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
