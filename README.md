@@ -1,3 +1,16 @@
-# encriptador-de-textos
+# Encriptador de Textos ¡Hola, bienvenido a mi proyecto de encriptador de textos!
 
-Aqui he creado un encriptador de textos responsivo usando CSS, Java y HTML.
+## Herramientas utilizadas:
+
+* HTML
+
+* CSS
+
+* JavaScript
+
+## Hecho por:
+
+### Adriana Delgado
+
+### Linkedin: https://www.linkedin.com/in/adriana-delgado-profile/
+### URL Encriptador de Textos:
