@@ -1,4 +1,4 @@
-# Encriptador de Textos ¡Hola, bienvenido a mi proyecto de encriptador de textos!
+# Encriptador de Textos ¡Hola, bienvenido a mi proyecto!
 
 ## Herramientas utilizadas:
 
